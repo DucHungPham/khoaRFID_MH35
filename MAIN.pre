@@ -1028,7 +1028,7 @@ void SendNum(unsigned char num);
 # 10 "main.h"
 ;
 
-# 35 "MAIN.C"
+# 24 "MAIN.C"
 unsigned char buzFre=12;
 unsigned int timeOut ,timeTick=0;
 unsigned char mtState = 0,PwInNum=0;
@@ -1040,7 +1040,7 @@ unsigned char buffTag[25]={0,0,0x11,0x0b,0x4f,
 0,0,0x7e,0x51,0xe6,
 };
 
-# 52
+# 41
 void delay_x10ms(unsigned char t){
 while(t--)
 _delay((unsigned long)((10)*(8000000/4000.0)));
@@ -1063,7 +1063,7 @@ T0IE = 0;
 void interrupt ISR(void)
 {
 
-# 98
+# 87
 if(T0IE&&T0IF)
 {
 T0IF = 0;
@@ -1072,7 +1072,7 @@ RC0 = ~RC0;
 return;
 }
 
-# 125
+# 114
 }
 
 
@@ -1115,7 +1115,7 @@ void main(void)
 {
 
 
-# 166
+# 155
 #asm
  MOVLW 0x07
  MOVWF 0x19
@@ -1131,7 +1131,7 @@ gpio_init();
 timer_init();
 int_init();
 
-# 185
+# 174
 eepromWriteByte(0x7F,0xAA);
 eepromWriteByte(0x7F,0xAA);
 
@@ -1208,8 +1208,6 @@ if(eepromReadByte(0x01)== 1){
 setState(0,0);
 }
 }
-
-setState(1,45);
 
 
 
@@ -1294,7 +1292,7 @@ case 3:
 
 if (idState == 0){
 
-# 352
+# 339
 if( idop !=1){
 tmp++;
 
@@ -1330,7 +1328,7 @@ beep(10,1);
 }
 break;
 
-# 406
+# 393
 }
 
 idState = 1;
@@ -1376,7 +1374,7 @@ setState(7,10);
 
 break;
 
-# 463
+# 450
 }
 }
 
@@ -1384,7 +1382,7 @@ break;
 if(mtState==0) RA3 = 1;
 else RA3 =0;
 
-# 475
+# 462
 if(mtState == 2) {
 
 TMR1ON = 1;T0IE = 1;

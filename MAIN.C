@@ -248,8 +248,6 @@ eepromWriteByte(0x7F,0xAA);
 			}
     } 
 
-	setState(_PwOn,tOut_PwOn);
-
 
 ///////
 

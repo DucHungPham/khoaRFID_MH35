@@ -25,84 +25,84 @@ Machine type is 16F685
 startup.obj     end_init                              A        A        1        8       0
                 reset_vec                             0        0        1        0       0
 smartkey.obj    intentry                              4        4        6        8       0
-                text593                             55F      55F       11        8       0
-                text592                             58F      58F        F        8       0
-                text591                             5DB      5DB        A      B72       0
-                text590                             53C      53C       12        8       0
-                text589                             5E5      5E5        9      B72       0
-                text588                             489      489       1F        8       0
-                text587                             429      429       21        8       0
-                text586                             4FB      4FB       18        8       0
-                text585                             5C6      5C6        B      B72       0
-                text584                             59E      59E        E        8       0
-                text583                             4E0      4E0       1B        8       0
-                text582                             5D1      5D1        A      B72       0
-                text581                             54E      54E       11        8       0
-                text580                             406      406       23        8       0
-                text579                             230      230      14D        8       0
-                text578                             570      570       10        8       0
-                text577                             4C4      4C4       1C        8       0
-                text576                             3B8      3B8       28        8       0
-                text575                             52A      52A       12        8       0
-                text574                             4A8      4A8       1C        8       0
-                text573                             5B9      5B9        D      B72       0
-                text572                             3E0      3E0       26        8       0
-                text571                             37D      37D       3B        8       0
-                text570                             44A      44A       20        8       0
-                swtext1                             5EE      5EE        8      BDC       0
-                maintext                              B        B      225        8       0
+                text593                             55B      55B       11        8       0
+                text592                             58B      58B        F        8       0
+                text591                             5D7      5D7        A      B6A       0
+                text590                             538      538       12        8       0
+                text589                             5E1      5E1        9      B6A       0
+                text588                             485      485       1F        8       0
+                text587                             425      425       21        8       0
+                text586                             4F7      4F7       18        8       0
+                text585                             5C2      5C2        B      B6A       0
+                text584                             59A      59A        E        8       0
+                text583                             4DC      4DC       1B        8       0
+                text582                             5CD      5CD        A      B6A       0
+                text581                             54A      54A       11        8       0
+                text580                             402      402       23        8       0
+                text579                             22C      22C      14D        8       0
+                text578                             56C      56C       10        8       0
+                text577                             4C0      4C0       1C        8       0
+                text576                             3B4      3B4       28        8       0
+                text575                             526      526       12        8       0
+                text574                             4A4      4A4       1C        8       0
+                text573                             5B5      5B5        D      B6A       0
+                text572                             3DC      3DC       26        8       0
+                text571                             379      379       3B        8       0
+                text570                             446      446       20        8       0
+                swtext1                             5EA      5EA        8      BD4       0
+                maintext                              B        B      221        8       0
                 cstackBANK0                          3F       3F       1B       20       1
                 cstackCOMMON                         70       70        C       70       1
-                inittext                            580      580        F        8       0
+                inittext                            57C      57C        F        8       0
                 dataBANK0                            20       20       1F       20       1
                 bssBANK0                             5A       5A        B       20       1
-                cinit                               513      513       17        8       0
-                strings                             5AC      5AC        D      B58       0
-                idataBANK0                          46A      46A       1F        8       0
+                cinit                               50F      50F       17        8       0
+                strings                             5A8      5A8        D      B50       0
+                idataBANK0                          466      466       1F        8       0
 
 TOTAL           Name                               Link     Load   Length     Space
         CLASS   CONST          
-                swtext1                             5EE      5EE        8         0
+                swtext1                             5EA      5EA        8         0
 
         CLASS   CODE           
                 end_init                              A        A        1         0
                 intentry                              4        4        6         0
                 reset_vec                             0        0        1         0
-                text593                             55F      55F       11         0
-                text592                             58F      58F        F         0
-                text591                             5DB      5DB        A         0
-                text590                             53C      53C       12         0
-                text589                             5E5      5E5        9         0
-                text588                             489      489       1F         0
-                text587                             429      429       21         0
-                text586                             4FB      4FB       18         0
-                text585                             5C6      5C6        B         0
-                text584                             59E      59E        E         0
-                text583                             4E0      4E0       1B         0
-                text582                             5D1      5D1        A         0
-                text581                             54E      54E       11         0
-                text580                             406      406       23         0
-                text579                             230      230      14D         0
-                text578                             570      570       10         0
-                text577                             4C4      4C4       1C         0
-                text576                             3B8      3B8       28         0
-                text575                             52A      52A       12         0
-                text574                             4A8      4A8       1C         0
-                text573                             5B9      5B9        D         0
-                text572                             3E0      3E0       26         0
-                text571                             37D      37D       3B         0
-                text570                             44A      44A       20         0
-                maintext                              B        B      225         0
-                inittext                            580      580        F         0
-                cinit                               513      513       17         0
-                idataBANK0                          46A      46A       1F         0
+                text593                             55B      55B       11         0
+                text592                             58B      58B        F         0
+                text591                             5D7      5D7        A         0
+                text590                             538      538       12         0
+                text589                             5E1      5E1        9         0
+                text588                             485      485       1F         0
+                text587                             425      425       21         0
+                text586                             4F7      4F7       18         0
+                text585                             5C2      5C2        B         0
+                text584                             59A      59A        E         0
+                text583                             4DC      4DC       1B         0
+                text582                             5CD      5CD        A         0
+                text581                             54A      54A       11         0
+                text580                             402      402       23         0
+                text579                             22C      22C      14D         0
+                text578                             56C      56C       10         0
+                text577                             4C0      4C0       1C         0
+                text576                             3B4      3B4       28         0
+                text575                             526      526       12         0
+                text574                             4A4      4A4       1C         0
+                text573                             5B5      5B5        D         0
+                text572                             3DC      3DC       26         0
+                text571                             379      379       3B         0
+                text570                             446      446       20         0
+                maintext                              B        B      221         0
+                inittext                            57C      57C        F         0
+                cinit                               50F      50F       17         0
+                idataBANK0                          466      466       1F         0
 
         CLASS   STRCODE        
 
         CLASS   ENTRY          
 
         CLASS   STRING         
-                strings                             5AC      5AC        D         0
+                strings                             5A8      5A8        D         0
 
         CLASS   BANK0          
                 cstackBANK0                          3F       3F       1B         1
@@ -140,12 +140,12 @@ TOTAL           Name                               Link     Load   Length     Sp
 SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class     Delta
 
                 reset_vec                      000000  000001  000001         0       0  CODE        2
-                intentry                       000004  0005A8  0005AC         8       0  CODE        2
+                intentry                       000004  0005A4  0005A8         8       0  CODE        2
                 dataBANK0                      000020  000045  000065        20       1  BANK0       1
                 cstackCOMMON                   000070  00000C  00007C        70       1  COMMON      1
-                strings                        0005AC  00000D  0005B9       B58       0  STRING      2
-                text573                        0005B9  000035  0005EE       B72       0  CODE        2
-                swtext1                        0005EE  000008  0005F6       BDC       0  CONST       2
+                strings                        0005A8  00000D  0005B5       B50       0  STRING      2
+                text573                        0005B5  000035  0005EA       B6A       0  CODE        2
+                swtext1                        0005EA  000008  0005F2       BD4       0  CONST       2
 
 
 UNUSED ADDRESS RANGES
@@ -154,14 +154,14 @@ UNUSED ADDRESS RANGES
         BANK0            065-06F             B           1
         BANK1            0A0-0BF            20           1
         CODE             001-003             3           2
-                         5F6-7FF           20A
+                         5F2-7FF           20E
         COMMON           07C-07D             2           1
         CONFIG           2007-2007             1           2
         CONST            001-003             3           2
-                         5F6-7FF           100
+                         5F2-7FF           100
         EEDATA           2100-217F            80           2
         ENTRY            001-003             3           2
-                         5F6-7FF           100
+                         5F2-7FF           100
         IDLOC            2000-2003             4           2
         RAM              065-06F             B           1
                          0A0-0BF            20
@@ -169,9 +169,9 @@ UNUSED ADDRESS RANGES
         SFR1             080-09F            20           1
         SFR2             100-16F            70           1
         STRCODE          001-003             3           2
-                         5F6-7FF           20A
+                         5F2-7FF           20E
         STRING           001-003             3           2
-                         5F6-7FF           100
+                         5F2-7FF           100
 
                                   Symbol Table
 
@@ -240,7 +240,7 @@ _EPWMR1L                    (abs)        013
 _GIE                        (abs)        05F
 _HTS                        (abs)        47A
 _INTCON                     (abs)        00B
-_ISR                        text593      55F
+_ISR                        text593      55B
 _OPTION                     (abs)        081
 _OSCCON                     (abs)        08F
 _PEIE                       (abs)        05E
@@ -260,7 +260,7 @@ _RA4                        (abs)        02C
 _RC0                        (abs)        038
 _RC1                        (abs)        039
 _RD                         (abs)        4E0
-_SET_EPWM_ON                text586      4FB
+_SET_EPWM_ON                text586      4F7
 _SR0                        (abs)        CF6
 _SR1                        (abs)        CF7
 _SRCON                      (abs)        19E
@@ -269,7 +269,7 @@ _STRB                       (abs)        CE9
 _STRC                       (abs)        CEA
 _STRD                       (abs)        CEB
 _STRSYNC                    (abs)        CEC
-_SendNum                    text572      3E0
+_SendNum                    text572      3DC
 _SendNum$4581               cstackCOMMON 075
 _SendNum$4582               cstackCOMMON 077
 _T0IE                       (abs)        05D
@@ -353,76 +353,76 @@ __Lsfr1                     sfr1         000
 __Lsfr2                     sfr2         000
 __Lstrings                  strings      000
 __Ltext                     text         000
-__S0                        (abs)        5F6
+__S0                        (abs)        5F2
 __S1                        (abs)        07C
 __S2                        (abs)        000
-___bmul                     text584      59E
+___bmul                     text584      59A
 ___bmul@multiplicand        cstackCOMMON 072
 ___bmul@multiplier          cstackCOMMON 074
 ___bmul@product             cstackCOMMON 073
-___lbdiv                    text583      4E0
+___lbdiv                    text583      4DC
 ___lbdiv@counter            cstackCOMMON 074
 ___lbdiv@dividend           cstackCOMMON 073
 ___lbdiv@divisor            cstackCOMMON 072
 ___lbdiv@quotient           cstackCOMMON 075
-__end_of_ISR                text593      570
-__end_of_SET_EPWM_ON        text586      513
-__end_of_SendNum            text572      406
-__end_of___bmul             text584      5AC
-__end_of___lbdiv            text583      4FB
-__end_of_beep               text574      4C4
-__end_of_comArr             text588      4A8
-__end_of_delay_x10ms        text578      580
-__end_of_eepromReadBlock    text581      55F
-__end_of_eepromReadByte     text589      5EE
-__end_of_eepromWriteBlock   text575      53C
-__end_of_eepromWriteByte    text580      429
-__end_of_get_RFID           text579      366
-__end_of_gpio_init          text592      59E
-__end_of_id_clear           text570      46A
-__end_of_id_replate         text571      3B1
-__end_of_id_search          text577      4E0
-__end_of_int_init           text590      54E
-__end_of_main               maintext     230
-__end_of_setState           text585      5D1
-__end_of_swUartSendByte     text576      3E0
-__end_of_swUartSendString   text573      5C6
-__end_of_sys_init           text582      5DB
-__end_of_timerOut           text587      44A
-__end_of_timer_init         text591      5E5
+__end_of_ISR                text593      56C
+__end_of_SET_EPWM_ON        text586      50F
+__end_of_SendNum            text572      402
+__end_of___bmul             text584      5A8
+__end_of___lbdiv            text583      4F7
+__end_of_beep               text574      4C0
+__end_of_comArr             text588      4A4
+__end_of_delay_x10ms        text578      57C
+__end_of_eepromReadBlock    text581      55B
+__end_of_eepromReadByte     text589      5EA
+__end_of_eepromWriteBlock   text575      538
+__end_of_eepromWriteByte    text580      425
+__end_of_get_RFID           text579      362
+__end_of_gpio_init          text592      59A
+__end_of_id_clear           text570      466
+__end_of_id_replate         text571      3AD
+__end_of_id_search          text577      4DC
+__end_of_int_init           text590      54A
+__end_of_main               maintext     22C
+__end_of_setState           text585      5CD
+__end_of_swUartSendByte     text576      3DC
+__end_of_swUartSendString   text573      5C2
+__end_of_sys_init           text582      5D7
+__end_of_timerOut           text587      446
+__end_of_timer_init         text591      5E1
 __pbssBANK0                 bssBANK0     05A
 __pcstackBANK0              cstackBANK0  03F
 __pcstackCOMMON             cstackCOMMON 070
 __pdataBANK0                dataBANK0    020
-__pidataBANK0               idataBANK0   46A
+__pidataBANK0               idataBANK0   466
 __pintentry                 intentry     004
 __pmaintext                 maintext     00B
-__pstrings                  strings      5AC
-__pswtext1                  swtext1      5EE
-__ptext570                  text570      44A
-__ptext571                  text571      37D
-__ptext572                  text572      3E0
-__ptext573                  text573      5B9
-__ptext574                  text574      4A8
-__ptext575                  text575      52A
-__ptext576                  text576      3B8
-__ptext577                  text577      4C4
-__ptext578                  text578      570
-__ptext579                  text579      230
-__ptext580                  text580      406
-__ptext581                  text581      54E
-__ptext582                  text582      5D1
-__ptext583                  text583      4E0
-__ptext584                  text584      59E
-__ptext585                  text585      5C6
-__ptext586                  text586      4FB
-__ptext587                  text587      429
-__ptext588                  text588      489
-__ptext589                  text589      5E5
-__ptext590                  text590      53C
-__ptext591                  text591      5DB
-__ptext592                  text592      58F
-__ptext593                  text593      55F
+__pstrings                  strings      5A8
+__pswtext1                  swtext1      5EA
+__ptext570                  text570      446
+__ptext571                  text571      379
+__ptext572                  text572      3DC
+__ptext573                  text573      5B5
+__ptext574                  text574      4A4
+__ptext575                  text575      526
+__ptext576                  text576      3B4
+__ptext577                  text577      4C0
+__ptext578                  text578      56C
+__ptext579                  text579      22C
+__ptext580                  text580      402
+__ptext581                  text581      54A
+__ptext582                  text582      5CD
+__ptext583                  text583      4DC
+__ptext584                  text584      59A
+__ptext585                  text585      5C2
+__ptext586                  text586      4F7
+__ptext587                  text587      425
+__ptext588                  text588      485
+__ptext589                  text589      5E1
+__ptext590                  text590      538
+__ptext591                  text591      5D7
+__ptext592                  text592      58B
+__ptext593                  text593      55B
 __ptext594                  text594      000
 __size_of_ISR               (abs)        000
 __size_of_SET_EPWM_ON       (abs)        000
@@ -449,33 +449,33 @@ __size_of_swUartSendString  (abs)        000
 __size_of_sys_init          (abs)        000
 __size_of_timerOut          (abs)        000
 __size_of_timer_init        (abs)        000
-_beep                       text574      4A8
+_beep                       text574      4A4
 _buffTag                    dataBANK0    026
 _buzFre                     dataBANK0    025
-_comArr                     text588      489
-_delay_x10ms                text578      570
-_eepromReadBlock            text581      54E
-_eepromReadByte             text589      5E5
-_eepromWriteBlock           text575      52A
-_eepromWriteByte            text580      406
+_comArr                     text588      485
+_delay_x10ms                text578      56C
+_eepromReadBlock            text581      54A
+_eepromReadByte             text589      5E1
+_eepromWriteBlock           text575      526
+_eepromWriteByte            text580      402
 _exit                       init         00A
-_get_RFID                   text579      230
-_gpio_init                  text592      58F
-_id_clear                   text570      44A
-_id_replate                 text571      37D
-_id_search                  text577      4C4
-_int_init                   text590      53C
+_get_RFID                   text579      22C
+_gpio_init                  text592      58B
+_id_clear                   text570      446
+_id_replate                 text571      379
+_id_search                  text577      4C0
+_int_init                   text590      538
 _keyID                      bssBANK0     060
 _main                       maintext     00B
 _mtState                    bssBANK0     05F
-_setState                   text585      5C6
-_swUartSendByte             text576      3B8
-_swUartSendString           text573      5B9
-_sys_init                   text582      5D1
+_setState                   text585      5C2
+_swUartSendByte             text576      3B4
+_swUartSendString           text573      5B5
+_sys_init                   text582      5CD
 _timeOut                    bssBANK0     05A
 _timeTick                   bssBANK0     05C
-_timerOut                   text587      429
-_timer_init                 text591      5DB
+_timerOut                   text587      425
+_timer_init                 text591      5D7
 beep@delay                  cstackCOMMON 076
 beep@rep                    cstackCOMMON 075
 btemp                       (abs)        07E
@@ -497,7 +497,7 @@ eepromWriteBlock@i          cstackCOMMON 07A
 eepromWriteBlock@len        cstackCOMMON 077
 eepromWriteByte@EEAddr      cstackCOMMON 075
 eepromWriteByte@EEData      cstackCOMMON 072
-end_of_initialization       cinit        528
+end_of_initialization       cinit        524
 get_RFID@RF_serial_55bits   cstackBANK0  03F
 get_RFID@even_col           cstackBANK0  04B
 get_RFID@even_row           cstackBANK0  04C
@@ -519,8 +519,8 @@ id_replate@id               cstackCOMMON 07B
 id_search@buff              cstackCOMMON 07A
 id_search@i                 cstackBANK0  040
 id_search@id_input          cstackBANK0  03F
-init_fetch                  inittext     580
-init_ram                    inittext     584
+init_fetch                  inittext     57C
+init_ram                    inittext     580
 interrupt_function          intentry     004
 intlevel0                   functab      000
 intlevel1                   functab      000
@@ -688,7 +688,6 @@ l6681
 l6695                                       
 l6697                                       
 l6699                                       
-l6707                                       
 l6711                                       
 l6713                                       
 l6715                                       
@@ -733,7 +732,7 @@ saved_w                     (abs)        07E
 setState@_tOut              cstackCOMMON 072
 setState@stt                cstackCOMMON 074
 start                       init         00A
-start_initialization        cinit        513
+start_initialization        cinit        50F
 swUartSendByte@dat          cstackCOMMON 073
 swUartSendByte@i            cstackCOMMON 074
 swUartSendString@str        cstackCOMMON 075
